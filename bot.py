@@ -69,7 +69,7 @@ async def _help(bot, update):
 # Store file
 @bot.on_message(filters.media & filters.private)
 async def _main(bot, update):
-    if OWNER_ID == 'all':
+    if OWNER_ID == '1391556668':
         pass
     elif int(OWNER_ID) == update.from_user.id:
         pass
